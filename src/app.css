@@ -1,0 +1,75 @@
+.add-formula__btn {
+  cursor: pointer;
+  background-color: rgb(34, 123, 153);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.custom-selector {
+  position: relative;
+  max-width: max-content;
+  display: flex;
+  border: 1px solid gray;
+  margin: 10px 0;
+  padding: 0px 10px;
+}
+
+.custom-input {
+  display: flex;
+}
+
+.custom-input__list {
+  display: flex;
+  align-items: center;
+  line-height: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-input__list li {
+  cursor: pointer;
+  position: relative;
+  margin: 0 2px;
+  background-color: gray;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: larger;
+}
+
+.custom-input__list li button {
+  cursor: pointer;
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  padding: 0px 2px;
+  color: #fff;
+  position: absolute;
+  top: -10px;
+  z-index: 9;
+}
+
+.custom-input__list-opinion {
+  z-index: 10;
+  position: absolute;
+  right: 0;
+
+  display: block;
+  margin: 0;
+  margin: 0;
+  padding: 0;
+
+  background-color: rgba(47, 79, 79, 0.187);
+  backdrop-filter: blur(5px);
+
+  list-style: none;
+}
+.custom-input__list-opinion li {
+  cursor: pointer;
+  padding: 5px;
+}
+.custom-input__list-opinion li:hover {
+  background-color: aliceblue;
+}
